@@ -1,4 +1,33 @@
-    
+   /* @media only screen and (max-width: 860px) {
+    .
+} */
+.animage{
+  margin-top: 6px;
+  height: 30px;
+}
+.SECOND{
+  /* height: 30px; */
+  background-color: #0067b8!important;
+  color: #fff;
+}
+.Alert{
+  min-height: 3.625rem;
+  position: relative;
+  padding: 0.1rem 15rem;
+  text-decoration: solid;
+}
+div{
+  display: block;
+}
+.business ul li{
+  display: flex;
+  height: 10px;
+}
+.business ul{
+  display:flex;
+  padding: 7rem 10rem;
+
+} 
     *{
         padding: 0;
         margin: 0;
@@ -8,39 +37,12 @@
         font-family: 'Segoe UI', sans-serif;
       }
       
-      header {
-        display: flex;
-        justify-content: space-between;
-        padding: 1rem 0 1rem 0;
-      }
-      
-      header nav ul {
-        display: flex;
-        align-items: center;
-        gap: 1.7rem;
-        font-size: 14px;
-      }
-      
-      header nav li {
-        list-style-type: none;
-      }
-      
-      header nav li img {
-        width: 110px;
-      }
-      
-      header nav li a {
-        text-decoration: none;
-        color: black;
-      }
-      header nav li a:hover {
-        text-decoration: underline;
-      }
       
       .banner {
         background-color: #0067b8;
         color: white;
         text-align: center;
+        width: 100%;
         padding: 1.2rem 0 1.2rem 0;
         font-weight: 500;
       }
@@ -56,7 +58,35 @@
       .hero-container img {
         width: 100%;
       }
-      
+     .navbar{
+      height: 60px;
+      padding: 0 24px;
+      margin: 0 0 2px;
+      display: flex;
+     }
+     .navbar img{
+      width:200px;
+      height: 50px;
+      padding: 6px 1rem;
+     }
+     .navbar ul{
+      display: flex;
+      padding:20px 4px;
+      margin: 0;
+      gap: 10px;
+      width: 100%;
+      text-decoration: none;
+      list-style: none;
+
+     }
+     .navbar ul li{
+      border: 1px solid transparent;
+      display: inline-block;
+      margin-top: 1px;
+      padding: 16px 8px 10px;
+      height: 48px;
+      outline-offset: -2px;
+     }
       .overlay {
         position: absolute;
         top: 50%;
@@ -229,4 +259,27 @@
       
       footer li a:hover {
         text-decoration: underline;
+      }
+
+      @media only screen and (max-width: 1015px) {
+        .hero-container #off{
+      display: none;
+        }
+        .hero-container img{
+          width: 100%;
+          align-items: center;
+          height: 500px;
+        }
+        #newrow{
+          width: 100%;
+          display: grid;
+       align-items: center;
+        }
+        #second{
+          display: grid;
+  
+      /* flex: content; */
+          align-items: center;
+        }
+      
       }
